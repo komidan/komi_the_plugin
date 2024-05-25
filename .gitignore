@@ -1,0 +1,5 @@
+*.inc
+compile.*
+amxxpc.*
+amxxpc32.*
+amxxpc
