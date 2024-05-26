@@ -1,7 +1,5 @@
 *.inc
-compile.*
 amxxpc.*
 amxxpc32.*
 amxxpc
-compiled
 include
