@@ -3,7 +3,7 @@
 #include <gcljs>
 
 #define PLUGIN "komi"
-#define VERSION "0.0.1"
+#define VERSION "0.1.0"
 #define AUTHOR "komidan"
 #define PLUGIN_SYMBOL "[K]"
 
