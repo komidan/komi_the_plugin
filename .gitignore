@@ -1,6 +1,7 @@
 compiled/
 include/
 *.bat
+*.py
 
 *.exe
 *.dll
