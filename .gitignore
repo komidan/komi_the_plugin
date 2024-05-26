@@ -1,7 +1,4 @@
 *.inc
-amxxpc.*
-compile.*
-amxxpc32.*
-amxxpc
+*.amxx
 include
 compiled
