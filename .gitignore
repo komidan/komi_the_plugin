@@ -1,3 +1,9 @@
 compiled/
 include/
 *.bat
+
+*.exe
+*.dll
+*.so
+*.dat
+amxxpc
