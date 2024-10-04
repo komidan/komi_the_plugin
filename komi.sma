@@ -22,11 +22,11 @@ public func_calc_noduck(client)
 	new Float:maxspeed = read_argv_float(2)
 	new Float:airpath = read_argv_float(3)
 
-	if (read_argv_float(1) != 0.000000)
+	if (read_argv_float(1) == 0.0)
 	{
 		// if no arguments passed, print the usage
 		console_print(client, "Usage: <distance> <maxspeed> <airpath>")
-		
+
 		return PLUGIN_HANDLED
 	}
 
@@ -37,7 +37,7 @@ public func_calc_noduck(client)
 	*/
 	new Float:final_value_100 = noduck_distance + (maxspeed / 100.0 * airpath * 6)
 
-	new print_message[32]
+	new print_message[64]
 	formatex(print_message, charsmax(print_message), "%s DUCKED DISTANCE: %f", PLUGIN_SYMBOL, final_value_100)
 	console_print(client, print_message)
 
