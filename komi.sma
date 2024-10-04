@@ -11,7 +11,7 @@ public plugin_init()
 {
 	register_plugin(PLUGIN, VERSION, AUTHOR)
 
-	RegisterChatAndConsoleCmd("komi", "komi_menu", "func_menu", -1, "menu to select weapon from")
+	RegisterChatAndConsoleCmd("komi", "komi_menu", "func_menu", -1, "does nothing atm")
 	register_concmd("komi_calc_noduck", "func_calc_noduck", -1, "<distance> <maxspeed> <airpath>")
 	register_concmd("komi_pre_sim", "func_prestrafe_sim", -1, "<distance> <prestrafe> <airpath> <substituted-prestrafe>")
 }
